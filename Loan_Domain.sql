@@ -1,8 +1,6 @@
 create database loan
 use loan
 
-drop table `Loan_payments_data`
-
 CREATE TABLE `Loan_payments_data` (
 	`Loan_ID` VARCHAR(11) NOT NULL, 
 	loan_status VARCHAR(18) NOT NULL, 
